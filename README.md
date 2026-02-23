@@ -1,2 +1,2 @@
-# lk_programacion
+# programacion_1
 Curso de programacion 
