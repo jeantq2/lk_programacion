@@ -14,18 +14,18 @@ public class parcial1 {
                 
                 if (claveUsuario == CLAVE) {
                     System.out.print("Ingrese el monto a retirar: ");
-                    retiro = sc.nextInt();
-                     retiro = retiro + 2000; // Se cobra comisión
+                     retiro = sc.nextInt();
+                    retiro = retiro + 2000; // Se cobra comisión
                     nuevoSaldo = SALDO_INICIAL - retiro;
                     System.out.println("Nuevo saldo: " + nuevoSaldo);
                     
                 } else {
-                     System.out.println("El valor solicitado más el costo de la transacción es mayor al saldo");
-                
                      
 
                     
                     System.out.println("Clave incorrecta");
+                   
+                     
                     sc.close();
                 }
             }
