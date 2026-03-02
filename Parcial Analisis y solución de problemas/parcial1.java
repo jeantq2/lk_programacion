@@ -18,7 +18,13 @@ public class parcial1 {
                      retiro = retiro + 2000; // Se cobra comisión
                     nuevoSaldo = SALDO_INICIAL - retiro;
                     System.out.println("Nuevo saldo: " + nuevoSaldo);
+                    
                 } else {
+                     System.out.println("El valor solicitado más el costo de la transacción es mayor al saldo");
+                
+                     
+
+                    
                     System.out.println("Clave incorrecta");
                     sc.close();
                 }
