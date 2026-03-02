@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CajeroUNIAJC {
+public class parcial1 {
 
     public static void main(String[] args) {
 
