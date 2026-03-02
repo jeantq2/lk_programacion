@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ejercicio41b {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(Sytem.in);
+        Scanner sc = new Scanner(System.in);
         //si la temperatura esta por encima de 100 sube punto de ebullicion
         System.out.println("Digite la temperatura...");
         int temp = sc.nextInt();
