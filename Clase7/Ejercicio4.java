@@ -7,13 +7,14 @@ public class Ejercicio4 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingresa un entero no negativo: ");
         int n = sc.nextInt();
+        
 
-        long factorial = 1;
+        int suma = 0;
         for (int i = 2; i <= n; i++) {
-            factorial *= i;
+            suma *= i;
         }
 
-        System.out.println(n + "! = " + factorial);
+        System.out.println(n + "! = " + suma);
         sc.close();
     }
 }
